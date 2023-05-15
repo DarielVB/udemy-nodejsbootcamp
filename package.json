@@ -1,0 +1,32 @@
+{
+  "name": "udemy-nodejsbootcamp",
+  "version": "1.0.0",
+  "description": "Repositorio en el cual trabajare el curso de Udemy",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node ejecutar-desde-package.js",
+    "server": "nodemon ejecutar-desde-package.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DarielVB/udemy-nodejsbootcamp.git"
+  },
+  "keywords": [
+    "MVC",
+    "Pug",
+    "Tailwind",
+    "MySQL",
+    "Sequelize"
+  ],
+  "author": "Dariel Vega",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DarielVB/udemy-nodejsbootcamp/issues"
+  },
+  "homepage": "https://github.com/DarielVB/udemy-nodejsbootcamp#readme",
+  "devDependencies": {
+    "express": "^4.18.2",
+    "nodemon": "^2.0.22"
+  }
+}
